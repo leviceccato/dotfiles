@@ -1,0 +1,15 @@
+layout {
+	tab_template name="t" {
+		pane
+		pane size=1 borderless=true {
+			plugin location="zellij:compact-bar"
+		}
+	}
+    t name="1 Scratch" cwd="~"
+    t name="2 MOST API" cwd="~/most-api-service"
+    t name="3 MOST Client" cwd="~/most-client-app"
+    t name="4 Accounts API" cwd="~/accounts-api-service"
+    t name="5 Accounts Client" cwd="~/accounts-client-app"
+    t name="6 Survey API" cwd="~/survey-api-service"
+    t name="7 Localdev" cwd="~/localdev"
+}
