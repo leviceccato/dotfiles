@@ -8,6 +8,16 @@ My personal dotfile repo, managed with GNU Stow.
 
 ## Usage
 
-1. Clone this directory into your home folder.
-2. Copy any dotfiles or config from your home folder into the dotfiles folder, maintaining the structure.
-3. Run `stow --adopt .` to create symlinks between the config in this repo and that which is in your home folder. The `--adopt` flag will allow you to symlink with existing files in your home folder and will overwrite the files in the repo with their contents.
+Clone this directory into `~`.
+
+Copy any dotfiles or config from `~` into `~/dotfiles`, maintaining the structure.
+
+Run Stow to create symlinks between the config in both directories. If you have existing files in your home directory
+you will need to use the `adopt` flag. This will overwrite the contents of the files in your repo with the ones in
+your home folder.
+
+```sh
+stow --adopt ~/dotfiles
+```
+
+To prevent Stow from symlinking files in this this repo add them to `.stow-local-ignore`.
