@@ -15,14 +15,14 @@ PROMPT='%F{green}${PWD/#$HOME/~}%f %F{yellow}${vcs_info_msg_0_}%f
 # ALIASES
 
 alias c="clear"
-alias ..="cd .."
+alias d="cd"
 
 # VARIABLES
 
 export PATH=/opt/homebrew/bin:$PATH
 export PATH=/usr/local/opt/mysql-client/bin:$PATH
-export VISUAL="code"
-export EDITOR="code"
+export VISUAL="hx"
+export EDITOR="hx"
 
 # Mello
 export ANDROID_HOME=$HOME/Library/Android/sdk
