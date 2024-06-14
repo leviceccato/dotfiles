@@ -189,6 +189,12 @@ pane_frames false
 
 theme "catppuccin-macchiato"
 
+ui {
+    pane_frames {
+        hide_session_name true
+    }
+}
+
 plugins {
     tab-bar location="zellij:tab-bar"
     status-bar location="zellij:status-bar"
