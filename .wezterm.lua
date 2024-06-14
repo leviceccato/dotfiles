@@ -17,4 +17,8 @@ config.window_padding = {
   bottom = 0,
 }
 
+wezterm.on('format-window-title', function()
+  return 'WezTerm'
+end)
+
 return config
