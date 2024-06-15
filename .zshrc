@@ -59,6 +59,7 @@ export PATH=/opt/homebrew/bin:$PATH
 export PATH=/usr/local/opt/mysql-client/bin:$PATH
 export VISUAL="hx"
 export EDITOR="hx"
+export BAT_THEME="Monokai Extended"
 
 # Mello
 export ANDROID_HOME=$HOME/Library/Android/sdk
