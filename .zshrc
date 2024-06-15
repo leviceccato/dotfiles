@@ -18,6 +18,13 @@ alias c="clear"
 alias d="cd"
 alias lg="lazygit"
 alias zj="zellij"
+# Only alias these if the program is installed
+if command -v bat > /dev/null; then
+  alias cat="bat"
+fi
+if command -v lsd > /dev/null; then
+  alias ls="lsd"
+fi
 
 # VARIABLES
 
