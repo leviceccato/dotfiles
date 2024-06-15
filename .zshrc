@@ -54,6 +54,9 @@ export VISUAL="hx"
 export EDITOR="hx"
 export BAT_THEME="Monokai Extended"
 
+# Fix permission 777 folders looking weird in lsd
+export LS_COLORS="$LS_COLORS:ow=01;33"
+
 # Mello
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
