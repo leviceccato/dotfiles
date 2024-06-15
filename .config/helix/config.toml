@@ -3,6 +3,7 @@ theme = "levi"
 [editor]
 bufferline = "always"
 line-number = "relative"
+color-modes = true
 
 # This is convenient for finding neighbouring files in deeply nested
 # directories
