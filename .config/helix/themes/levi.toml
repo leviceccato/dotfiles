@@ -2,3 +2,4 @@ inherits = "monokai_pro"
 
 "ui.background" = {}
 "ui.bufferline.background" = {}
+"ui.statusline" = {}

@@ -9,6 +9,10 @@ line-number = "relative"
 [keys.normal."space"]
 o = "file_picker_in_current_buffer_directory"
 
+# Open lazygit in a popup
+[keys.normal]
+C-g = ":sh tmux popup -d \"#{pane_current_path}\" -xC -yC -w80% -h80% -E lazygit"
+
 [editor.file-picker]
 hidden = false
 
