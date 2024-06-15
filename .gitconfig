@@ -1,2 +1,3 @@
 [user]
 	name = "Levi Ceccato"
+	# Email is defined as a env var in ~/.zshenv
