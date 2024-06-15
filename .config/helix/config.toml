@@ -1,0 +1,13 @@
+theme = "levi"
+
+[editor]
+bufferline = "always"
+line-number = "relative"
+
+# This is convenient for finding neighbouring files in deeply nested
+# directories
+[keys.normal."space"]
+o = "file_picker_in_current_buffer_directory"
+
+[editor.file-picker]
+hidden = false
