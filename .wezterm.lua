@@ -11,13 +11,13 @@ config.window_padding = {
   right = 10,
   bottom = 10,
 }
-config.color_scheme = 'Monokai Pro Ristretto (Gogh)'
+config.color_scheme = 'Monokai Pro (Gogh)'
 config.colors = {
-  background = '#2c2525',
+  background = '#222222',
 }
 config.window_frame = {
-  active_titlebar_bg = '#2c2525',
-  inactive_titlebar_bg = '#2c2525',
+  active_titlebar_bg = '#222222',
+  inactive_titlebar_bg = '#222222',
 }
 config.font = wezterm.font('FiraCode Nerd Font')
 config.font_size = 16
