@@ -187,7 +187,23 @@ keybinds {
 
 pane_frames false
 
-theme "catppuccin-macchiato"
+theme "monokai-pro-ristretto"
+
+themes {
+    monokai-pro-ristretto {
+        bg "#2c2525"
+        fg "#fff1f3"
+        black "#000000"
+        red "#fd6883"
+        green "#adda78"
+        yellow "#f9cc6c"
+        blue "#85dacc"
+        magenta "#a8a9eb"
+        cyan "#85dacc"
+        white "#ffffff"
+        orange "#f9cc6c"
+    }
+}
 
 ui {
     pane_frames {

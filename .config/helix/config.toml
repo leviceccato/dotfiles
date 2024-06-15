@@ -1,4 +1,4 @@
-theme = "levi"
+theme = "monokai_pro_ristretto"
 
 [editor]
 bufferline = "always"

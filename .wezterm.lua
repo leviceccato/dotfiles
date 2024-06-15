@@ -11,12 +11,12 @@ config.window_padding = {
   right = 10,
   bottom = 10,
 }
-config.color_scheme = 'Catppuccin Macchiato'
-config.window_frame = {
-  active_titlebar_bg = '#24273a'
-}
+config.color_scheme = 'Monokai Pro Ristretto (Gogh)'
 config.colors = {
-  background = '#24273a'
+  background = '#2c2525'
+}
+config.window_frame = {
+  active_titlebar_bg = '#2c2525'
 }
 config.font = wezterm.font('FiraCode Nerd Font')
 config.font_size = 16
