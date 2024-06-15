@@ -30,6 +30,29 @@ if command -v wezterm > /dev/null; then
   alias icat="wezterm imgcat"
 fi
 
+function most {
+  if tmux has-session -t most 2>/dev/null; then
+    echo "Session already exists"
+  else
+    tmux new -d -s most
+    tmux send-keys -t most "cd ~" Enter
+    tmux neww -t most
+    tmux send-keys -t most "cd ~/localdev" Enter
+    tmux neww -t most
+    tmux send-keys -t most "cd ~/most-api-service" Enter
+    tmux neww -t most
+    tmux send-keys -t most "cd ~/most-client-app" Enter
+    tmux neww -t most
+    tmux send-keys -t most "cd ~/accounts-api-service" Enter
+    tmux neww -t most
+    tmux send-keys -t most "cd ~/accounts-client-app" Enter
+    tmux neww -t most
+    tmux send-keys -t most "cd ~/survey-api-service" Enter
+    tmux select-window -t most @1
+    tmux attach -d -t most
+  fi
+}
+
 # VARIABLES
 
 export PATH=/opt/homebrew/bin:$PATH
