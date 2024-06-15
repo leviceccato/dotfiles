@@ -19,16 +19,9 @@ alias d="cd"
 alias ..="cd .."
 alias lg="lazygit"
 alias zj="zellij"
-# Only alias these if the program is installed
-if command -v bat > /dev/null; then
-  alias cat="bat"
-fi
-if command -v lsd > /dev/null; then
-  alias ls="lsd"
-fi
-if command -v wezterm > /dev/null; then
-  alias icat="wezterm imgcat"
-fi
+alias cat="bat"
+alias ls="lsd"
+alias icat="wezterm imgcat"
 
 function most {
   if tmux has-session -t most 2>/dev/null; then
