@@ -16,6 +16,7 @@ PROMPT='%F{green}${PWD/#$HOME/~}%f %F{yellow}${vcs_info_msg_0_}%f
 
 alias c="clear"
 alias d="cd"
+alias ..="cd .."
 alias lg="lazygit"
 alias zj="zellij"
 # Only alias these if the program is installed
