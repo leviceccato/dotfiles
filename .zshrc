@@ -41,7 +41,6 @@ function most {
     tmux send-keys -t most "cd ~/accounts-client-app" Enter
     tmux neww -t most
     tmux send-keys -t most "cd ~/survey-api-service" Enter
-    tmux select-window -t most @1
     tmux attach -d -t most
   fi
 }
