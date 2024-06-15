@@ -4,7 +4,7 @@ local config = wezterm.config_builder()
 
 config.color_scheme = 'Catppuccin Macchiato'
 config.colors = {
-  background = '#111111'
+  background = '#24273a'
 }
 config.font = wezterm.font('FiraCode Nerd Font')
 config.font_size = 16
