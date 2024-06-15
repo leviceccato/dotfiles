@@ -11,3 +11,9 @@ o = "file_picker_in_current_buffer_directory"
 
 [editor.file-picker]
 hidden = false
+
+[editor.indent-guides]
+render = true
+
+[editor.soft-wrap]
+enable = true
