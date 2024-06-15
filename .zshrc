@@ -25,6 +25,9 @@ fi
 if command -v lsd > /dev/null; then
   alias ls="lsd"
 fi
+if command -v wezterm > /dev/null; then
+  alias icat="wezterm imgcat"
+fi
 
 # VARIABLES
 
