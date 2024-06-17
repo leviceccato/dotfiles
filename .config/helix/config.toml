@@ -5,6 +5,11 @@ bufferline = "always"
 line-number = "relative"
 color-modes = true
 
+[editor.cursor-shape]
+normal = "bar"
+insert = "bar"
+select = "bar"
+
 # This is convenient for finding neighbouring files in deeply nested
 # directories
 [keys.normal."space"]

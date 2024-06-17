@@ -22,5 +22,6 @@ config.window_frame = {
 config.font = wezterm.font('FiraCode Nerd Font')
 config.font_size = 16
 config.line_height = 1.3
+config.default_cursor_style = 'SteadyBar'
 
 return config
