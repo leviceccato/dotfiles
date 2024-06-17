@@ -66,10 +66,8 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-# NVM
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-
 # Direnv, this was required for setting up survey-api-service
-eval "$(direnv hook zsh)"
+# eval "$(direnv hook zsh)"
+
+# fnm
+eval "$(fnm env --use-on-cd)"
