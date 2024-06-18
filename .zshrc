@@ -15,8 +15,8 @@ PROMPT='%F{green}${PWD/#$HOME/~}%f %F{yellow}${vcs_info_msg_0_}%f
 # ALIASES
 
 alias c="clear"
-alias d="cd"
-alias ..="cd .."
+alias d="z"
+alias ..="z .."
 alias lg="lazygit"
 alias zj="zellij"
 alias cat="bat"
@@ -71,3 +71,9 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # fnm
 eval "$(fnm env --use-on-cd)"
+
+# Zoxide
+eval "$(zoxide init zsh)"
+
+# fzf
+source <(fzf --zsh)
